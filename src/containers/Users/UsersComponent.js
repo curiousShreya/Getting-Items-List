@@ -9,7 +9,7 @@ const UsersComponent = () => {
         const {id, username, email, name, phone} = card;
         return (
             <div className={classes.flexContainer} key={id}>
-                <Link to ={`/users/${id}`}>
+                <Link to ={`/Getting-Items-List/users/${id}`}>
                   <div className={classes.card}>
                       <h2 style={{paddingTop: '1rem'}}>Name: {name}</h2>
                       

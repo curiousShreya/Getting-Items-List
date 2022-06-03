@@ -9,7 +9,7 @@ const CardComponent = () => {
         const {id, title, userId} = card;
         return (
             <div className={classes.flexContainer} key={id}>
-                <Link to ={`/card/${id}`}>
+                <Link to ={`/Getting-Items-List/card/${id}`}>
                   <div className={classes.card}>
                       <h2 style={{paddingTop: '1rem'}}>ID: {id}</h2>
                     <div style={{paddingTop: '1.5rem'}}>

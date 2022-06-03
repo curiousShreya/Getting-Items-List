@@ -22,19 +22,19 @@ function App() {
         <Router>
            <Header />
            <Routes>
-             <Route path='/' exact element={<Navigation />} />
-             <Route path='/posts' exact element={<PostsList />} />
-             <Route path='/posts/:postsId' exact element={<PostsDetails />} />
-             <Route path='/comments' exact element={<CommentsList />} />
-             <Route path='/comments/:commentsId' exact element={<CommentsDetails />} />
-             <Route path='/albums' exact element={<AlbumsList />} />
-             <Route path='/albums/:albumsId' exact element={<AlbumsDetails />} />
-             <Route path='/photos' exact element={<PhotosList />} />
-             <Route path='/photos/:photosId' exact element={<PhotosDetails />} />
-             <Route path='/todos' exact element={<TodosList />} />
-             <Route path='/todos/:todosId' exact element={<TodosDetails />} />
-             <Route path='/users' exact element={<UsersList />} />
-             <Route path='/users/:usersId' exact element={<UsersDetails />} /> 
+             <Route path='/Getting-Items-List' exact element={<Navigation />} />
+             <Route path='/Getting-Items-List/posts' exact element={<PostsList />} />
+             <Route path='/Getting-Items-List/posts/:postsId' exact element={<PostsDetails />} />
+             <Route path='/Getting-Items-List/comments' exact element={<CommentsList />} />
+             <Route path='/Getting-Items-List/comments/:commentsId' exact element={<CommentsDetails />} />
+             <Route path='/Getting-Items-List/albums' exact element={<AlbumsList />} />
+             <Route path='/Getting-Items-List/albums/:albumsId' exact element={<AlbumsDetails />} />
+             <Route path='/Getting-Items-List/photos' exact element={<PhotosList />} />
+             <Route path='/Getting-Items-List/photos/:photosId' exact element={<PhotosDetails />} />
+             <Route path='/Getting-Items-List/todos' exact element={<TodosList />} />
+             <Route path='/Getting-Items-List/todos/:todosId' exact element={<TodosDetails />} />
+             <Route path='/Getting-Items-List/users' exact element={<UsersList />} />
+             <Route path='/Getting-Items-List/users/:usersId' exact element={<UsersDetails />} /> 
              <Route>404 Not Found</Route>
            </Routes>
         </Router>

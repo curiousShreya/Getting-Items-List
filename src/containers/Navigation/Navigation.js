@@ -8,12 +8,12 @@ const Navigation = () => {
       <div>
          
           <div className={classes.sidenav}>
-             <Link to="/posts">Posts</Link>
-             <Link to="/comments">Comments</Link>
-             <Link to="/albums">Albums</Link>
-             <Link to="/photos">Photos</Link>
-             <Link to="/todos">Todos</Link>
-             <Link to="/users">Users</Link>
+             <Link to="/Getting-Items-List/posts">Posts</Link>
+             <Link to="/Getting-Items-List/comments">Comments</Link>
+             <Link to="/Getting-Items-List/albums">Albums</Link>
+             <Link to="/Getting-Items-List/photos">Photos</Link>
+             <Link to="/Getting-Items-List/todos">Todos</Link>
+             <Link to="/Getting-Items-List/users">Users</Link>
           </div>
          <div className={classes.main}>
             <h2 style={{textAlign: 'center'}}>Click on the sideNav buttons (Posts, Comments etc) and you will get an array of posts, comments etc</h2>

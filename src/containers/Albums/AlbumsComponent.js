@@ -9,7 +9,7 @@ const AlbumsComponent = () => {
         const {id, title, userId} = card;
         return (
             <div className={classes.flexContainer} key={id}>
-                <Link to ={`/albums/${id}`}>
+                <Link to ={`/Getting-Items-List/albums/${id}`}>
                   <div className={classes.card}>
                       <h2 style={{paddingTop: '1rem'}}>ID: {id}</h2>
                     <div style={{paddingTop: '1.5rem'}}>

@@ -9,7 +9,7 @@ const PhotosComponent = () => {
         const {id, url} = card;
         return (
             <div className={classes.flexContainer} key={id}>
-                <Link to ={`/photos/${id}`}>
+                <Link to ={`/Getting-Items-List/photos/${id}`}>
                   <div className={classes.card}>
                       <h2 style={{paddingTop: '1rem'}}>ID: {id}</h2>
                       <img src={url} alt="picture" />

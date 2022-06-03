@@ -9,7 +9,7 @@ const CommentsComponent = () => {
         const {id, title, name, email} = card;
         return (
             <div className={classes.flexContainer} key={id}>
-                <Link to ={`/comments/${id}`}>
+                <Link to ={`/Getting-Items-List/comments/${id}`}>
                   <div className={classes.card}>
                       <h2 style={{paddingTop: '1rem'}}>ID: {id}</h2>
                     <div style={{paddingTop: '1.5rem'}}>
