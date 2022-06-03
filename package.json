@@ -2,7 +2,7 @@
   "name": "my-redux-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https:/curiousShreya.github.io/Getting-Items-List",
+  "homepage": "https://curiousShreya.github.io/Getting-Items-List",
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.0",
     "@testing-library/jest-dom": "^5.16.2",
