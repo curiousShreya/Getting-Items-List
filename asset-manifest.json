@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/curiousShreya.github.io/Getting-Items-List/static/css/main.a16f3903.css",
+    "main.js": "/curiousShreya.github.io/Getting-Items-List/static/js/main.2f68050c.js",
+    "index.html": "/curiousShreya.github.io/Getting-Items-List/index.html",
+    "main.a16f3903.css.map": "/curiousShreya.github.io/Getting-Items-List/static/css/main.a16f3903.css.map",
+    "main.2f68050c.js.map": "/curiousShreya.github.io/Getting-Items-List/static/js/main.2f68050c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a16f3903.css",
+    "static/js/main.2f68050c.js"
+  ]
+}
